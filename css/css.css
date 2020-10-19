@@ -1,0 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{margin: 0; padding: 0;}
+
+
+body{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: oswald;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.top-bar {
+    background: #ddd;
+}
+
+.top-bar-wrapper {
+    overflow: hidden;
+}
+
+.top-phone {
+    width: 250px;
+    float: left;
+    padding: 10px 10px;
+    border-left: 1px solid;
+}
+
+.top-email {
+    width: 726px;
+    float: left;
+    border-left: 1px solid;
+    padding: 10px;
+}
+
+.top-icon {
+    width: 122px;
+    float: left;
+}
+.top-icon a {
+    padding: 10px;
+    border-right: 1px solid rgb(211, 196, 196);
+    display: block;
+    float: left;
+}
+.top-icon i:hover{
+    color: orange;
+}
+.top-icon a:first-child{
+    border-left: 1px solid rgb(211, 196, 196);
+}
+
+    .top-phone i {
+        color: orange;
+    }
+    
+    .top-email i {
+        color: orange;
+        
+    }
+    i#gg {
+        margin-right: 6px;
+        display: block;
+        float: left;
+        margin-top: 3.5px;
+    }
+    
+    .top-email i {
+        display: block;
+        float: left;
+        margin-right: 10px;
+        margin-top: 3.5px;
+    }
+    .menu-bar {
+        padding: 25px 0px;
+    }
+    
+    .menu-wrapper {
+        overflow: hidden;
+    }
+    
+    .logo-image {
+        width: 120px;
+        float: left;
+    }
+    
+    .menu-list {
+        width: 900px;
+        float: right;
+    }
+    
+    ul.menu-itam {
+        list-style: none;
+        display: flex;
+        float: right;
+        
+    }
+    
+    ul.menu-itam li {
+        padding: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    ul.menu-itam li a {
+        text-decoration: none;
+    }
+    a#ggg {
+        color: orange;
+    }
+    
+     
+    ul.menu-itam li a:hover{
+        color: orange;
+    }
+    i.fas.fa-search {
+        padding-top: 2px;
+        padding-left: -4px;
+        display: block;
+        margin-right: -8px;
+    }
+    
+.home-slider{
+ background-image:url(../pic/slide-2.jpg);
+ background-color: #cccccc;
+ height: 565px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.description {
+    width: 515px;
+    color: white;
+}
+
+.slider-content {
+    padding: 133px 0;
+}
+
+.description h2 {
+    font-size: 47.5px;
+    text-transform: uppercase;
+    line-height: 77px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+h2 {}
+
+.description p {
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.button button {
+    text-transform: uppercase;
+    padding: 20px 25px;
+    font-size: 19px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: orange;
+    transition: .6s;
+}
+.button button:hover{
+    background: tomato;
+    cursor: pointer;
+}
+.button {
+    width: 200px;
+    padding: 40px 0px;
+}
+
+.slider-nav {
+    width: 70px;
+    margin: auto;
+}
+
+.slider-nav  span {
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 2px solid;
+    display: block;
+    float: left;
+    border-radius: 100%;
+    margin-right: 10px;
+    color: #ddd;
+}
+.slider-nav  span:last-child{
+    background: orange;
+}
+.slider-nav  span:last-child:hover{
+    background: rgb(247, 195, 52);
+    cursor: pointer;
+
+}
+
+
+
+section.offer-itam {
+    padding: 90px 0px;
+    /* overflow: hidden; */
+    background: #fffafabb;
+}
+
+.offer-wrapper {
+    overflow: hidden;
+}
+.offer-sbox {
+    width: 225px;
+    padding: 17px;
+    text-align: center;
+    background: white;
+    float: left;
+    margin-right: 33px;
+}
+.offer-sbox:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+}
+.offer-sbox:hover i{
+    
+    color: white;
+}
+.offer-sbox:hover a{
+    
+    color: white;
+}
+
+.offer-sbox.fffactives{
+    background: orange;
+    color: white;
+}
+.offer-sbox.fffactives i{
+    color: white;
+}
+.offer-sbox.fffactives a{
+    color: white;
+}
+.offer-sbox:last-child{
+    margin-right: 0px;
+   
+}
+
+.offer-icon {
+    font-size: 50px;
+    padding: 30px 0px;
+    color: orange;
+}
+
+.offer-content h2 {
+    padding-bottom: 15px;
+}
+
+.offer-content p {
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.learn-more a {
+    text-decoration: none;
+    padding-bottom: 9px;
+}
+
+.learn-more {
+    padding-bottom: 10px;
+    width: 135px;
+    margin: auto;
+}
+
+.learn-more i {
+    padding-left: -4px;
+    display: block;
+    float: right;
+    padding-bottom: -2px;
+}
+
+i.fas.fa-caret-right {
+    padding-top: 3px;
+}
+section.clint-detais {
+    padding: 90px 0px;
+}
+
+.clint-img {
+    width: 50%;
+    float: left;
+}
+
+.clint-img img {
+    max-width: 100%;
+}
+section.clint-detais {
+    padding: 90px 0px;
+}
+
+.clint-img {
+    width: 50%;
+    float: left;
+}
+
+.clint-img img {
+    max-width: 100%;
+    height: 500px;
+}
+
+.claint-wrapper {
+    overflow: hidden;
+}
+.clint-content {
+    padding: 0px 50px;
+    width: 450px;
+    float: left;
+}
+
+.clint-conten-decscription h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+h2 {}
+
+.clint-conten-decscription p {
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.list-itames {
+    width: 100%;
+}
+
+ul.list-left {
+    width: 50%;
+    float: left;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+ul.list-right {
+    width: 50%;
+    float: right;
+    list-style: none;
+}
+
+ul.list-left a {
+    text-decoration: none;
+    line-height: 40px;
+}
+
+ul.list-right a {
+    text-decoration: none;
+    line-height: 40px;
+}
+.teme-section{
+    background:linear-gradient(#191111b8, #000000bd),url(../pic/why-choose-us1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sboxs-single {
+    width: 262px;
+    float: left;
+    text-align: center;
+    color: white;
+    margin-right: 30px;
+}
+.sboxs-single:last-child{
+    margin-right: 0px;
+}
+.sectioon-wrapper {
+    overflow: hidden;
+    padding: 90px 0px;
+}
+
+.sboxs-single i {
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+.sboxs-single h2 {
+    font-size: 70px;
+    padding-bottom: 10px;
+    letter-spacing: 1.3s;
+    font-weight: 500;
+}
+
+.sboxs-single h4 {
+    font-size: 25px;
+}
+
+
+
